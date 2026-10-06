@@ -7,6 +7,19 @@
 
 Bài phân tích use case sinh viên chọn môn bằng gợi ý có giải thích và lưu kế hoạch học kỳ. Bối cảnh triển khai được đối chiếu với nhánh [truongan_22001535](https://github.com/SE2026-AI/ai-07-explainable-course-recommender/tree/b587eefb7c5aac86990058fdb981a53cd7931925), commit b587eef.
 
+## Cấu trúc thư mục nộp bài
+
+```text
+Track1_Day20_2A202602393_DinhTruongAn/
+├── README.md          # Họ tên, MHV, dự án, link Metrics Pack, điều áp dụng vào dự án
+├── ai-support-log.md  # Ba câu trả lời về việc dùng AI
+├── metrics-pack.html  # Metrics Pack trực quan, đủ các mục 00–06
+├── index.html         # Mở Metrics Pack khi truy cập trang GitHub Pages
+└── .nojekyll          # Phục vụ tệp HTML trực tiếp trên GitHub Pages
+```
+
+Theo brief VLearn, repository cần có `README.md` và `ai-support-log.md`; README phải liên kết tới Metrics Pack đã cấp quyền xem. Repo này lưu thêm Metrics Pack dạng HTML và hai tệp phục vụ GitHub Pages để người chấm xem trực tiếp.
+
 ## Metrics Pack
 
 **[Mở Metrics Pack trực tiếp](https://dinhtruongan.github.io/Track1_Day20_2A202602393_DinhTruongAn/metrics-pack.html)**
@@ -48,4 +61,5 @@ Sửa bản đầu từ plan_confirmed trên máy chủ thành plan_saved tại 
 - [VLearn · Track 1 Day 20](https://vlearn.dev/course/k04-l34-p2-t1/reader?day=D08&part=lab-961eda13-s12-doc)
 - [PlanView tại commit đã đối chiếu](https://github.com/SE2026-AI/ai-07-explainable-course-recommender/blob/b587eefb7c5aac86990058fdb981a53cd7931925/src/web/src/components/PlanView.tsx)
 - [Demo session](https://github.com/SE2026-AI/ai-07-explainable-course-recommender/blob/b587eefb7c5aac86990058fdb981a53cd7931925/src/web/src/lib/session.ts)
+
 
